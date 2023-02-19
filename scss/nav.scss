@@ -1,0 +1,20 @@
+.nav-holder{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+
+    a{
+        text-decoration: none;
+        color:white;
+        text-align: left;
+    }
+
+    nav{
+        width: $site-nav-width;
+        height: $site-nav-height;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 0 auto;
+        border-bottom: solid $site-white 2px;
+    }
+}

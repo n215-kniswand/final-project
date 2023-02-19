@@ -58,4 +58,23 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
 }
 
+.nav-holder {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+.nav-holder a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+.nav-holder nav {
+  width: 980px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-bottom: solid #FFF 2px;
+}
+
 /*# sourceMappingURL=styles.css.map */
