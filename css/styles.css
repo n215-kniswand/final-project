@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p {
 .site-wrapper {
   max-width: 1280px;
   min-height: 500px;
-  background-color: #d3d3d3;
+  background-color: #FFF;
   margin: 0 auto;
   position: relative;
 }
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .nav-holder a {
   text-decoration: none;
-  color: white;
+  color: #FFF;
   text-align: left;
 }
 .nav-holder nav {
@@ -75,6 +75,75 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   border-bottom: solid #FFF 2px;
+}
+
+.home .hero {
+  max-width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+}
+.home .hero .callout {
+  width: 416px;
+  min-height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .hero .callout h1 {
+  margin-bottom: 50px;
+}
+.home .hero .callout p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.home .hero .callout span {
+  background-color: #79addc;
+  padding: 5px, 15px;
+}
+.home .form-area {
+  max-width: 818px;
+  min-height: 304px;
+  margin: 50px auto 0 auto;
+}
+.home .form-area .form-area .two-input {
+  min-height: 58px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.home .form-area .form-area .two-input .left {
+  width: 344px;
+  height: 58px;
+  padding: 5px;
+  font-size: 18px;
+  border-color: solid #79addc 2px;
+}
+.home .form-area .form-area .two-input .right {
+  width: 453px;
+  height: 58px;
+  padding: 5px;
+  font-size: 18px;
+  border-color: solid #79addc 2px;
+}
+.home .form-area .form-area .single-line-input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.home .form-area .form-area .single-line-input-holder .large-input {
+  width: 698px;
+}
+.home .form-area .form-area .single-line-input-holder .large-input .icon {
+  position: absolute;
+  font-size: 24px;
+  right: 30px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

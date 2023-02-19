@@ -1,0 +1,77 @@
+.home{
+    .hero{
+        max-width: 100%; //could be $site-width
+        height: $hero-height;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:$site-white;;
+
+        .callout{
+            width:416px;
+            min-height: 100px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1{
+                margin-bottom: 50px;
+            }
+            p{
+                margin-bottom: 50px;
+                text-align: center;
+            }
+            span{
+                background-color: $site-blue;
+                padding: 5px, 15px
+            }
+        }
+    }
+
+    .form-area{
+        max-width: 818px;
+        min-height: $tour-banner-height;
+        margin: 50px auto 0 auto;
+
+        .form-area{
+            .two-input{
+                min-height: 58px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                .left{
+                    width: 344px;
+                    height: 58px;
+                    padding: 5px;
+                    font-size: 18px;
+                    border-color: solid $site-blue 2px;
+                }
+                .right{
+                    width: 453px;
+                    height: 58px;
+                    padding: 5px;
+                    font-size: 18px;
+                    border-color: solid $site-blue 2px;
+                }
+            }
+            .single-line-input-holder{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                .large-input{
+                    width:698px;
+                    .icon{
+                    position: absolute;
+                    font-size: 24px;
+                    right: 30px;
+                    margin-bottom: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}
