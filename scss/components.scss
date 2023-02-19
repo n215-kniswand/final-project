@@ -1,0 +1,34 @@
+.background-props{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tour-component{
+    width: $tour-banner-width;
+    height: $tour-banner-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-holder{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .promo{
+        max-width: 818px;
+        min-height: $tour-banner-height;
+        display: flex;
+        justify-content: space-between;
+        margin: -43 auto 0 auto;
+    }
+
+    .isreal-pic{
+        background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour/tour-01.jpg);
+    }
+}
