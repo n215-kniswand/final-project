@@ -27,13 +27,35 @@
   margin: -43 auto 0 auto;
 }
 .tour-component .isreal-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-01.jpg);
 }
 .tour-component .usa-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-02.jpg);
 }
 .tour-component .australia-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-03.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-wrapper {
+  max-width: 1280px;
+  min-height: 500px;
+  background-color: #d3d3d3;
+  margin: 0 auto;
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
