@@ -29,5 +29,11 @@
 .tour-component .isreal-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-01.jpg);
 }
+.tour-component .usa-pic {
+  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-02.jpg);
+}
+.tour-component .australia-pic {
+  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour/tour-03.jpg);
+}
 
 /*# sourceMappingURL=styles.css.map */
