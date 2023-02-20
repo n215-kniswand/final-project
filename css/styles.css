@@ -146,4 +146,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 20px;
 }
 
+footer {
+  background-color: #79addc;
+  color: #FFF;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /*# sourceMappingURL=styles.css.map */
