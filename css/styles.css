@@ -29,7 +29,7 @@
   justify-content: space-between;
 }
 .promo .tour-component .isreal-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-01.jpg);
 }
 .promo .tour-component .usa-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-02.jpg);
@@ -113,36 +113,36 @@ h1, h2, h3, h4, h5, h6, p {
   min-height: 304px;
   margin: 50px auto 0 auto;
 }
-.home .form-area .form-area .two-input {
+.home .form-area .form .two-input {
   min-height: 58px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.home .form-area .form-area .two-input .left {
+.home .form-area .form .two-input .left {
   width: 344px;
   height: 58px;
   padding: 5px;
   font-size: 18px;
   border-color: solid #79addc 2px;
 }
-.home .form-area .form-area .two-input .right {
+.home .form-area .form .two-input .right {
   width: 453px;
   height: 58px;
   padding: 5px;
   font-size: 18px;
   border-color: solid #79addc 2px;
 }
-.home .form-area .form-area .single-line-input-holder {
+.home .form-area .form .single-line-input-holder {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
-.home .form-area .form-area .single-line-input-holder .large-input {
+.home .form-area .form .single-line-input-holder .large-input {
   width: 698px;
 }
-.home .form-area .form-area .single-line-input-holder .large-input .icon {
+.home .form-area .form .single-line-input-holder .large-input .icon {
   position: absolute;
   font-size: 24px;
   right: 30px;

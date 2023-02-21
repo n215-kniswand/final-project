@@ -1,12 +1,12 @@
-    .promo{
-        max-width: 818px;
-        min-height: $tour-banner-height;
-        display: flex;
-        justify-content: space-between;
-        margin: -43 auto 0 auto;
-        flex-direction: row;
-        margin: 0 auto;
-        padding-top: 25px;
+.promo{
+    max-width: 818px;
+    min-height: $tour-banner-height;
+    display: flex;
+    justify-content: space-between;
+    margin: -43 auto 0 auto;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 25px;
 
         .background-props{
             background-position: center;
@@ -33,7 +33,7 @@
     
 
         .isreal-pic{
-            background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-01.jpg);
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-01.jpg);
         }
         .usa-pic{
             background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-02.jpg);
