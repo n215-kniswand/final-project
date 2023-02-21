@@ -75,3 +75,7 @@
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .home { max-width: 80%; align-items: center;}
+}
