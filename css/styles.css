@@ -1,17 +1,26 @@
-.background-props {
+.promo {
+  max-width: 818px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin: -43 auto 0 auto;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.promo .background-props {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.tour-component {
+.promo .tour-component {
   width: 236px;
   height: 304px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tour-component .info-holder {
+.promo .tour-component .info-holder {
   width: 80%;
   height: 50%;
   display: flex;
@@ -19,20 +28,13 @@
   align-items: center;
   justify-content: space-between;
 }
-.tour-component .promo {
-  max-width: 818px;
-  min-height: 304px;
-  display: flex;
-  justify-content: space-between;
-  margin: -43 auto 0 auto;
-}
-.tour-component .isreal-pic {
+.promo .tour-component .isreal-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-01.jpg);
 }
-.tour-component .usa-pic {
+.promo .tour-component .usa-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-02.jpg);
 }
-.tour-component .australia-pic {
+.promo .tour-component .australia-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-03.jpg);
 }
 
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .home .hero .callout span {
   background-color: #79addc;
-  padding: 5px, 15px;
+  padding: 15px;
 }
 .home .form-area {
   max-width: 818px;
