@@ -84,6 +84,11 @@ h1, h2, h3, h4, h5, h6, p {
   border: solid black;
   text-align: center;
 }
+.nav-holder nav .logo2 {
+  width: 100px;
+  height: 50px;
+  border: solid white;
+}
 .nav-holder nav .links a {
   text-decoration: none;
   margin-left: 20px;
@@ -205,6 +210,8 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   bottom: 0;
   right: 0;
+  color: #79addc;
+  font-size: 20px;
 }
 
 footer {
@@ -219,8 +226,11 @@ footer .footer-content {
   height: 100%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+footer .media {
+  text-align: right;
+  padding-right: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
