@@ -1,0 +1,53 @@
+.about {
+    margin-top: 110px;
+    margin-bottom: 180px;
+  
+    .about-header {
+      h1 {
+        margin-bottom: 2px;
+      }
+      .border-bottom {
+        width: 97px;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 16px;
+      }
+    }
+  
+    .about-client-quotes {
+      margin-top: 107px;
+  
+      .client-quote-title {
+        
+      }
+  
+      .client-box {
+        max-width: 722px;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+  
+        .client-image {
+          width: 260px;
+          height: 150px;
+          overflow: hidden;
+          margin-right: 21px;
+  
+          img {
+            width: 100%;
+          }
+        }
+  
+        .client-quote {
+          max-width: 440px;
+          margin-bottom: 20px;
+        }
+  
+        .client-name {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }  
