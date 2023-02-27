@@ -4,4 +4,14 @@ footer{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+
+    .footer-content {
+        max-width: $content-width;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
 }

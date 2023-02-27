@@ -5,16 +5,28 @@
     width: 100%;
     text-align: right;
 
-    a{
-        text-decoration: none;
-        color:$site-white;
-    }
-
-    nav{
-        padding-top: 40px;
-        width: $site-nav-width;
-        height: $site-nav-height;
+    nav {
+        max-width: $content-width;
         margin: 0 auto;
-        border-bottom: solid $site-white 2px;
+        background-color: $site-blue;
+        min-height: $nav-footer-height;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+        .logo {
+          width: 100px;
+          height: 50px;
+          background-color: antiquewhite;
+          border: solid antiquewhite;
+        }
+      
+        .links {
+            a {
+                text-decoration: none;
+                margin-left: 20px;
+            }
+        }
     }
+      
 }
