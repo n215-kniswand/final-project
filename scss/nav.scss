@@ -8,23 +8,27 @@
     nav {
         max-width: $content-width;
         margin: 0 auto;
-        background-color: $site-blue;
+        background-color: $site-white;
         min-height: $nav-footer-height;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-bottom: solid black;
       
         .logo {
           width: 100px;
           height: 50px;
-          background-color: antiquewhite;
-          border: solid antiquewhite;
+          background-color: white;
+          border: solid black;
+          text-align: center;
+
         }
       
         .links {
             a {
                 text-decoration: none;
                 margin-left: 20px;
+                color:black;
             }
         }
     }
