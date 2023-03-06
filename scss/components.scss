@@ -63,3 +63,8 @@ justify-content: space-between;
 .uae-pic{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-09.jpg);
 }
+span{
+    background-color: $site-blue;
+    padding: 15px;
+    border-radius: 25px;
+}

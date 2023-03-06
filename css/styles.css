@@ -70,6 +70,12 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-09.jpg);
 }
 
+span {
+  background-color: #79addc;
+  padding: 15px;
+  border-radius: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;
