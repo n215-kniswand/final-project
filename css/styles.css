@@ -7,6 +7,7 @@
   flex-direction: row;
   margin: 0 auto;
   padding-top: 25px;
+  color: white;
 }
 
 .background-props {
@@ -33,15 +34,40 @@
 }
 
 .isreal-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-01.jpg);
 }
 
 .usa-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-02.jpg);
 }
 
 .australia-pic {
-  background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-03.jpg);
+}
+
+.new-zealand-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-04.jpg);
+}
+
+.france-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-05.jpg);
+}
+
+.egypt-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-06.jpg);
+}
+
+.japan-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-07.jpg);
+}
+
+.canada-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-08.jpg);
+  margin-bottom: 20px;
+}
+
+.uae-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-09.jpg);
 }
 
 * {
@@ -221,7 +247,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero {
-  margin: 150px auto;
+  margin: 150px auto -5px auto;
   height: 200px;
   width: 981px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
