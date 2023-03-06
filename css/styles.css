@@ -214,6 +214,20 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 20px;
 }
 
+.hero {
+  margin: 150px auto;
+  height: 200px;
+  width: 981px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 footer {
   background-color: #79addc;
   color: #FFF;
