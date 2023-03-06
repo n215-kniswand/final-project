@@ -8,19 +8,22 @@
   margin: 0 auto;
   padding-top: 25px;
 }
-.promo .background-props {
+
+.background-props {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.promo .tour-component {
+
+.tour-component {
   width: 236px;
   height: 304px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.promo .tour-component .info-holder {
+
+.info-holder {
   width: 80%;
   height: 50%;
   display: flex;
@@ -28,13 +31,16 @@
   align-items: center;
   justify-content: space-between;
 }
-.promo .tour-component .isreal-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-01.jpg);
+
+.isreal-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..images/tour-01.jpg);
 }
-.promo .tour-component .usa-pic {
+
+.usa-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-02.jpg);
 }
-.promo .tour-component .australia-pic {
+
+.australia-pic {
   background-image: linear-gradient rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), url(../images/tour-03.jpg);
 }
 

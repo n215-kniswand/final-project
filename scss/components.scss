@@ -7,39 +7,39 @@
     flex-direction: row;
     margin: 0 auto;
     padding-top: 25px;
+}
 
-        .background-props{
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+.background-props{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
         
-        .tour-component{
-            width: $tour-banner-width;
-            height: $tour-banner-height;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        
+.tour-component{
+    width: $tour-banner-width;
+    height: $tour-banner-height;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 
-    .info-holder{
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
+.info-holder{
+width: 80%;
+height: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
     
+.isreal-pic{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(..images/tour-01.jpg);
+}
 
-        .isreal-pic{
-            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-01.jpg);
-        }
-        .usa-pic{
-            background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-02.jpg);
-        }
-        .australia-pic{
-            background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-03.jpg);
-        }
-    }
+    .usa-pic{
+    background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-02.jpg);
+}
+
+.australia-pic{
+    background-image:linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-03.jpg);
 }
