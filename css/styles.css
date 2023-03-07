@@ -74,6 +74,7 @@ span {
   background-color: #79addc;
   padding: 15px;
   border-radius: 25px;
+  color: white;
 }
 
 * {
@@ -84,6 +85,9 @@ span {
 
 html, body {
   height: 100%;
+  max-width: 981px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -99,7 +103,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-holder {
-  position: absolute;
   top: 0;
   z-index: 99;
   width: 100%;
@@ -266,7 +269,39 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
 }
 
+.right {
+  text-align: right;
+}
+
+.hero-israel {
+  margin: 20px auto;
+  height: 413px;
+  width: 981px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.israel-pic-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-israel/israel-tour-01.jpg);
+}
+
+.israel-pic-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-israel/israel-tour-02.jpg);
+  margin-bottom: 20px;
+}
+
+.israel-pic-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tour-israel/israel-tour-03.jpg);
+}
+
 footer {
+  margin-top: 20px;
   background-color: #79addc;
   color: #FFF;
   text-align: center;

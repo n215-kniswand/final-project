@@ -12,3 +12,33 @@
     align-items: center;
     justify-content: center;
 }
+
+.right{
+    text-align: right;
+}
+
+.hero-israel{
+    margin: 20px auto;
+    height: 413px;
+    width: 981px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:$site-white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.israel-pic-1{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-israel/israel-tour-01.jpg);
+}
+.israel-pic-2{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-israel/israel-tour-02.jpg);
+    margin-bottom: 20px;
+}
+.israel-pic-3{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour-israel/israel-tour-03.jpg);
+}
