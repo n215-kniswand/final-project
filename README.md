@@ -40,4 +40,4 @@ For this homework assignment, you will be making the about page from the Travel-
 
 ## Homework 7 URL
 
-https://in-info-web4.informatics.iupui.edu/~kniswand/homework-six/tours.html
+https://in-info-web4.informatics.iupui.edu/~kniswand/homework-seven/offers.html
