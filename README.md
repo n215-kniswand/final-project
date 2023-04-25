@@ -4,40 +4,42 @@ This is a test organization repo for my N215 class
 
 ## Purpose
 
-This homework assignment will:
+This final project will:
 
-# Create multiple pages from a CSS class
+-Be a single-page application
 
--Teach you how to make your site responsive
+-Must be in an MVC format
 
--each you how to deal with images next to text.
+-Look just like the travel-fly home work assignment and this prototype:
 
--Teach you how to deal with images next to text
+-Must include all the pages.
 
--Use media queries
+-Must use jQuery or pure JavaScript
 
--Use percentages
+-Must navigate using the URL
 
 ## Task
 
-For this homework assignment, you will be making the about page from the Travel-fly prototype Travel-fly prototypeand making it responsive.
+For this homework assignment, you will:
 
--You must create a project named homework-seven
+-You must create a project named final-project
 
--You must build off of the previous assignment
+-You must take your old travel-fly project and turn it into a single-page application.
 
--You must fix any issues with the previous assignment, especially if it doesn't look like the prototype
+-It must look exactly like the travel-fly prototype
 
--Your about page must look like the prototype. Your text must look good.
+-You can find the fonts and images under the Files > Travel-fly folder
 
--All of these pages are similar to the ones we have done earlier in the site.
+-You must use jQuery or JavaScript
 
--Your page must be responsive
+-Use only one page and load all the content onto that page dynamically.
 
--You can align the elements as you wish but they must look good and not touch the sides of the browser
+-You must navigate using the routing that I showed you in class. This uses the URL for navigation.
 
--Upload your project to Github and add your Web4 link to the README file.
+-Must use the MVC model we have discussed, and it must by type module
 
-## Homework 7 URL
+-Upload your project to Github and Web4 and add your Web4 link to the README file in Github, and submit your Github link.
+
+## Final URL
 
 https://in-info-web4.informatics.iupui.edu/~kniswand/homework-seven/offers.html
