@@ -42,4 +42,4 @@ For this homework assignment, you will:
 
 ## Final URL
 
-https://in-info-web4.informatics.iupui.edu/~kniswand/homework-seven/offers.html
+https://in-info-web4.informatics.iupui.edu/~kniswand/final-project/
