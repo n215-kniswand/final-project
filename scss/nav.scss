@@ -1,9 +1,28 @@
-.nav-holder{
-color:black;
+.nav-holder-one{
+    color:white;
     top: 0;
     z-index: 99;
     width: 100%;
     text-align: right;
+    vertical-align: top;
+    border-bottom: solid white;
+
+    .logo-three{
+        width: 100px;
+        height: 50px;
+        border: solid white;
+        text-align: center;  
+    }
+
+}
+
+.nav-holder{
+    color:black;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
 
     nav {
         max-width: $content-width;

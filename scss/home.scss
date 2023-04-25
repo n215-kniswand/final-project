@@ -1,5 +1,6 @@
 .home{
     .hero{
+        margin-top: -100px;
         max-width: 100%; //could be $site-width
         height: $hero-height;
         background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/hero.jpg);
@@ -34,7 +35,9 @@
     .form-area{
         max-width: 818px;
         min-height: $tour-banner-height;
-        margin: 50px auto 0 auto;
+        display: flex;
+        justify-content: center; /* center child horizontally */
+        align-items: center;
 
         .form{
             .two-input{
